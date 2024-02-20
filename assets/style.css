@@ -1,0 +1,143 @@
+nav{
+    position: fixed;
+    padding: 20px 0;
+    width: 100vw;
+    z-index: 10;
+    background-color: transparent;
+    backdrop-filter: blur(12px);
+    box-shadow: 0 20px 25px -5px rgb(0 0 0/ 0.1), 0 8px 10px -6px rgb(0 0 0/0.1);   
+}
+
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nama a{
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 200%;
+    color: black;
+    margin-left: -100px;
+
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 4rem;
+}
+
+nav ul li a{    
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 110%;
+    color: black;
+    padding: 20px 20px;
+    font-weight: 600;
+    width: 100px;
+}
+
+.navbar img{
+    width: 100px;
+} 
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+section,
+aside {
+    width: 100%;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #333;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+.foto1 img{
+    border-radius: 70px;
+  width: 450px;  
+  position: absolute;
+  top:200px;
+  right:700px;
+
+}
+
+.foto1 h2{
+  position: absolute;
+  top: 150px;
+   right: 780px;;
+
+}
+
+.foto2 img{
+    border-radius: 70px;
+  width: 450px;  
+  position: absolute;
+  top:200px;
+  right:150px;
+}
+
+.foto2 h2{
+    position: absolute;
+    top: 150px;
+     right: 280px;
+  
+  }
+
+.foto3 img{
+    border-radius: 70px;
+  width: 480px;  
+  position: absolute;
+  right:130px;
+  top: 600px;
+
+}
+
+.foto3 h2{
+    position: absolute;
+    top: 550px;
+     right: 220px;
+  
+  }
+
+.foto4 img{
+    border-radius: 70px;
+  width: 480px;  
+  position: absolute;
+  top:600px;
+  right: 680px;
+
+}
+.foto4 h2{
+    position: absolute;
+    top: 550px;
+     right: 840px;;
+  
+  }
